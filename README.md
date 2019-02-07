@@ -2,7 +2,8 @@
 
 This branch should only be used to build the Ranger Knox Plugin for Apache Knox 1.2.0 working with the Ranger version in HDP 2.6.4.91-3.
 
-## Instructions
+## Build instructions
+Find below the instruction on how to build the plugin. It requires to build a number of dependencies as they are not available in any public Maven repository (or not in any repo I tried and have access to at least).
 
 ### Prerequisites:
 * mvnvm (Maven Version Manager)
@@ -28,8 +29,7 @@ Make sure you have the following Maven repositories in your `~/.m2/settings.xml`
 ```
 
 
-### Build instructions
-Execute the commands below one by one:
+### Step by step instructions
 ```
 cd /tmp
 mkdir ranger_plugin
