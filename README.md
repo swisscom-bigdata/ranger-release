@@ -6,8 +6,8 @@ This branch should only be used to build the Ranger Knox Plugin for Apache Knox 
 Find below the instruction on how to build the plugin. It requires to build a number of dependencies as they are not available in any public Maven repository (or not in any repo I tried and have access to at least).
 
 
-### Prerequisites
 
+### Prerequisites
 Required tools:
 * mvnvm (Maven Version Manager)
 * Ant (tested with version `1.10.5`)
