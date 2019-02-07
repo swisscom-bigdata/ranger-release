@@ -7,6 +7,7 @@ Find below the instruction on how to build the plugin. It requires to build a nu
 
 
 ### Prerequisites
+
 Required tools:
 * mvnvm (Maven Version Manager)
 * Ant (tested with version `1.10.5`)
