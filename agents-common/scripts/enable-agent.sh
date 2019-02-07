@@ -42,13 +42,13 @@ BASE_CONF_DIR=/etc/${PROJ_NAME}
 
 #
 # The script should be run by "root" user
-#
+# Can actuall be run as "knox" in our custom docker image
 
-if [ ! -w /etc/passwd ]
-then
-    echo "ERROR: $0 script should be run as root."
-    exit 1
-fi
+#if [ ! -w /etc/passwd ]
+#then
+#    echo "ERROR: $0 script should be run as root."
+#    exit 1
+#fi
 
 #Check for JAVA_HOME
 if [ "${JAVA_HOME}" == "" ]
