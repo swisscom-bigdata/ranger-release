@@ -9,7 +9,7 @@ Find below the instruction on how to build the plugin. It requires to build a nu
 The steps below were taken on a Mac running macOS Sierra 10.13.6. Should work with other environments with minimal changes.
 
 Required tools:
-* Homebrew (testt with version `2.0.1`)
+* Homebrew (tested with version `2.0.1`)
 * mvnvm (Maven Version Manager)
 * Ant (tested with version `1.10.5`)
 * Graddle (tested with version `4.10.2`)
