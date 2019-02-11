@@ -44,9 +44,6 @@ cd zookeeper-release
 git checkout tags/HDP-2.6.4.91-3-tag
 sed -i -- 's/3.4.6/3.4.6.2.6.3.0-SNAPSHOT/g' build.xml
 brew install automake
-ACLOCAL="aclocal -I /usr/local/share/aclocal" autoreconf -if
-ACLOCAL_PATH=/usr/local/share/aclocal autoreconf -if
-ACLOCAL_FLAGS="-I /usr/local/share/aclocal" autoreconf -if
 ant mvn-install
 # Yes, it works on second attempt...!?
 ant mvn-install
